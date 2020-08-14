@@ -21,4 +21,4 @@ for filename in os.listdir('./cogs'): #load cogs auto
 async def unload(ctx, extension):
     client.unload_extension(f'cogs.{extension}')
 
-client.run("nice one dickhead")
+client.run("token")
